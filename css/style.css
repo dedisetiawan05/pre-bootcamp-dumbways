@@ -1,0 +1,34 @@
+.all {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(45, 46, 45);
+    padding-left: 15%;
+}
+
+h1 {
+    color: rgb(212, 57, 40);
+}
+
+.img {
+    padding-left: 45%;
+    padding-right: 40%;
+}
+
+.table {
+    padding-left: 10%;
+    vertical-align: top;
+}
+
+.table tr {
+    padding: 5px;
+    vertical-align: top;
+}
+
+.table tr td {
+    padding: 5px;
+}
+
+textarea {
+    width: 170px;
+    height: 100px;
+}
