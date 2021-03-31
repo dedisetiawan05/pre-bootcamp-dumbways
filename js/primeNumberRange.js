@@ -1,16 +1,17 @@
 function isPrime(number){
     let count = 2;
-    while(count < (number / 2)+1){
+    while(count < number){
         if(number % count !== 0){
           count++;
           continue;
-       }
-       return false;
+        }
+        console.log(`bukan prima ${number}`);
+        return false;
     }
+    console.log(`prima ${number}`);
     return true;
  }
  function primeNumberRange(){
-    // let count = 0;
     let from = parseInt(document.getElementById("from").value);
     let to = parseInt(document.getElementById("to").value); 
     let primeNumber = [];
