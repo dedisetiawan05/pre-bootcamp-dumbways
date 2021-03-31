@@ -8,7 +8,6 @@ function fibonacciSequence() {
         } else {
             number = fibonacci[i - 1] + fibonacci[i - 2];
         }
-
         fibonacci.push(number);
     }
     document.getElementById("result").innerHTML = `<hr>Result<br>${fibonacci}`
