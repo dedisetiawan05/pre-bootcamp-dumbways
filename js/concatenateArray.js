@@ -9,18 +9,22 @@ function concatenateArray() {
             }
         }
     }
+
     let finalArray = array1.concat(array2).sort();
     let limitPop = finalArray.toString().split("q").length-1;
     console.log(`Ada ${limitPop} Data array yang sama`);
+    //pake splice
+    finalArray.splice(finalArray.length - limitPop, limitPop);
     
-    for (let b = 0; b <= finalArray.length - 1; b++){
-            if (finalArray[b] == "q")
-            {
-                for (let n = 1; n <= limitPop; n++){
-                    finalArray.pop();
-                }
-            }
-        }
+    //pake array
+    // for (let b = 0; b <= finalArray.length - 1; b++){
+    //         if (finalArray[b] == "q")
+    //         {
+    //             for (let n = 1; n <= limitPop; n++){
+    //                 finalArray.pop();
+    //             }
+    //         }
+    //     }
     document.getElementById("result").innerHTML = `<hr>Result<br> ${finalArray}`;
 
 }
