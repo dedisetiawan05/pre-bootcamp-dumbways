@@ -5,6 +5,7 @@ function multiplicationTable() {
 
     for (let i = 1; i <= row; i++){
         for (let j = 1; j <= limit; j++){
+            //table.push([i], [j], [i * j]);
             table.push(`${i} * ${j} = ${i*j} <br>`);
         }
     }
