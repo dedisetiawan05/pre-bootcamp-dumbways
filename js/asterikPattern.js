@@ -10,5 +10,7 @@ function astericPattern(){
             pattern.push("<br>");
     }
     pattern = pattern.join("");
+
     document.getElementById("result").innerHTML = `<hr>Result<br><br>${pattern}`
+    document.getElementById("result").innerHTML = `<div class='alert'><strong>Result</strong><br>${pattern}</div>`
 }

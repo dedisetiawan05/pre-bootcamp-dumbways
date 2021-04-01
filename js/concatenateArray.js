@@ -25,6 +25,6 @@ function concatenateArray() {
     //             }
     //         }
     //     }
-    document.getElementById("result").innerHTML = `<hr>Result<br> ${finalArray}`;
+    document.getElementById("result").innerHTML = `<div class='alert'><strong>Result</strong><br> ${finalArray}</div>`;
 
 }

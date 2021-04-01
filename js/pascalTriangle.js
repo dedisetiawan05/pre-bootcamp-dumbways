@@ -21,5 +21,5 @@ function pascalTriangle(){
         }
         pattern.push("<br>");
     }
-    document.getElementById("result").innerHTML =`<hr> Result <br>${pattern.join("")}`
+    document.getElementById("result").innerHTML =`<div class='alert'><strong>Result</strong><br>${pattern.join("")}</div>`
 }

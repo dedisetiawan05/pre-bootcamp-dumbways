@@ -23,8 +23,8 @@ function isPrime(number){
        }
     }
     if(primeNumber.length != 0){
-        document.getElementById("result").innerHTML = `<hr>Result<br>Bilangan Prima dari Angka ${from} sampai ${to} Adalah ${primeNumber}`
+        document.getElementById("result").innerHTML = `<div class='alert'><strong>Result</strong><br>Bilangan Prima dari Angka ${from} sampai ${to} Adalah ${primeNumber}</div>`
     }else{
-        document.getElementById("result").innerHTML = `<hr>Result<br>Tidak Ada Bilangan Prima dari Angka ${from} sampai ${to} `
+        document.getElementById("result").innerHTML = `<div class='alert'><strong>Result</strong><br>Tidak Ada Bilangan Prima dari Angka ${from} sampai ${to}</div>`
     }
  }

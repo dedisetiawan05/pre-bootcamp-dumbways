@@ -9,5 +9,5 @@ function multiplicationTable() {
             table.push(`${i} * ${j} = ${i*j} <br>`);
         }
     }
-    document.getElementById("result").innerHTML = `<hr>Result<br>${table.join("")}`
+    document.getElementById("result").innerHTML = `<div class='alert'><strong>Result</strong><br>${table.join("")}</div>`
 }

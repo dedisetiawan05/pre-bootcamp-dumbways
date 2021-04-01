@@ -6,5 +6,5 @@ function vowelsCheck() {
                 || alphabetUppercase == "I"
                 || alphabetUppercase == "O"
                 || alphabetUppercase == "U" ? "Huruf Vokal" : "Bukan Huruf Vocal";
-    document.getElementById("result").innerHTML = `<hr>Result<br>Huruf ${aplhabet} adalah ${isVocal}`
+    document.getElementById("result").innerHTML = `<div class='alert'><strong>Result</strong><br>Huruf ${aplhabet} adalah ${isVocal}</div>`
 }

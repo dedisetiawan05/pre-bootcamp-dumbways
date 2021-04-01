@@ -10,5 +10,5 @@ function fibonacciSequence() {
         }
         fibonacci.push(number);
     }
-    document.getElementById("result").innerHTML = `<hr>Result<br>${fibonacci}`
+    document.getElementById("result").innerHTML = `<div class='alert'><strong>Result</strong><br>${fibonacci}<div>`
 }
