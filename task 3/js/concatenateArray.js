@@ -17,7 +17,8 @@ function concatenateArray() {
     //hapus data
     finalArray.splice(finalArray.length - limitPop, limitPop);
     //for each
-    finalArray.forEach(number => console.log(number));
+    //finalArray.forEach(number => console.log(number));
+    finalArray.map(number => console.log(number));
     document.getElementById("result").innerHTML = `<div class='alert'><strong>Result</strong><br> ${finalArray}</div>`;
     //reduce
     const sumArray = finalArray.reduce((accumulator, currentValue) => accumulator + currentValue);
