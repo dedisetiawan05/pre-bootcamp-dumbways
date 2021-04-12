@@ -3,9 +3,7 @@ function searchSentence(){
     let sentence = document.getElementById("sentence").value;
     paragraph = paragraph.split(".");
     console.log(paragraph);
-    //arrow function
     const newParagraph = paragraph.filter(likesentence => likesentence.includes(sentence));
-    //reguler function
     // const newParagraph = paragraph.filter(function (likesentence) {
     //     return likesentence.includes(sentence);
     // });
